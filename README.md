@@ -20,3 +20,8 @@ minimalist firefox setup. no clutter, just web. based on edge-frfox.
 
 ---
 *part of the dekabrskuy reliability & automation stack.*
+
+### 🖼 preview
+![newtab setup](photo_2026-03-28_18-54-13.jpg)
+*minimalist dashboard with dock-style icons and custom branding.*
+*tokyo night moon theme set and customized toolbar*
