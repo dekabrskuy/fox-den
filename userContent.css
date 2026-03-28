@@ -1,0 +1,77 @@
+/* Edge-Frfox */
+@import url("content/common.css");
+@import url("content/newtab.css");
+@import url("tweaks/sidebery.css") -moz-pref;
+
+@-moz-document url("about:newtab"), url("about:home") {
+
+    .search-wrapper::before {
+        content: "firefox";
+        display: block;
+        text-align: center;
+        font-size: 32px;
+        font-weight: 400;
+        margin-bottom: 30px;
+        opacity: 1;
+        letter-spacing: 0px;
+    }
+
+    .search-wrapper .logo,
+    .search-wrapper .search-label,
+    .search-wrapper .search-button,
+    .search-handshake-icon, 
+    .logo-and-wordmark,
+    .search-icon {
+        display: none !important;
+    }
+    
+    .search-wrapper input::placeholder {
+        color: transparent !important;
+    }
+
+    .top-site-outer .tile {
+        width: 90px !important;  
+        height: 90px !important;
+        border-radius: 22% !important; 
+        background-color: rgba(255,255,255,0.05) !important; 
+        transition: all 0.2s ease !important;
+        border: none !important;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2) !important;
+    }
+
+    .top-site-outer .tile .icon-wrapper {
+        width: 54px !important;   
+        height: 54px !important;
+    }
+
+    .top-site-outer:hover .tile {
+        transform: translateY(-10px) scale(1.15) !important;
+        background-color: rgba(255,255,255,0.15) !important;
+    }
+
+    .top-site-outer .title {
+        display: none !important;
+    }
+
+.search-handoff-button {
+    display: none !important;
+}
+
+  .fake-textbox {
+    color: transparent !important;
+  }
+
+  .fake-caret {
+    display: none !important;
+  }
+
+  .search-handoff-button {
+    background-image: none !important;
+    padding-inline-start: 16px !important;
+  }
+}
+
+:root {
+  scrollbar-width: thin;
+  scrollbar-color: #444 #1e1e2e; 
+}

@@ -1,0 +1,43 @@
+/* Edge-Frfox main files */
+@import url("icons/icons.css");
+@import url("toolbar/tabbar.css");
+@import url("toolbar/navbar.css");
+@import url("toolbar/personalbar.css");
+@import url("toolbar/findbar.css");
+@import url("toolbar/urlbar.css");
+@import url("global/colors.css");
+@import url("global/popup.css");
+@import url("global/browser.css");
+@import url("global/tree.css");
+
+/* Edge-Frfox tweaks */
+@import url("global/tweaks.css");
+@import url("tweaks/hide-tabs-bar.css");
+
+/* Import custom stylesheet instead of modifying Edge-Frfox theme files. */
+@import url("custom.css");
+
+#home-button, 
+#sidebar-button, 
+#star-button-box, 
+#identity-box, 
+#tracking-protection-icon-container,
+.urlbar-search-button,
+.logo-and-wordmark { 
+  display: none !important; 
+}
+
+#urlbar-input::placeholder {
+  color: transparent !important;
+}
+#urlbar-input-container {
+  border: none !important;
+  padding: 0 !important;
+}
+.search-box-icon {
+  display: none !important;
+}
+#back-button, 
+#forward-button {
+  display: none !important;
+}
