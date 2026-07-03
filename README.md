@@ -1,14 +1,14 @@
-# fox-den 🦊
+# fox-den
 
 minimalist firefox setup. no clutter, just web. based on edge-frfox.
 
-### 🧩 key changes
+### key changes
 * **cleaner about:newtab**: removed all bloated logos and labels. replaced with a simple "firefox" text string.
 * **dock-style dashboard**: top sites are transformed into sleek tiles with hover animations and no text labels.
 * **distraction-free ui**: all navigation buttons (back/forward/home) are hidden. rely on your mouse side buttons or alt + arrow shortcuts.
 * **system-wide aesthetics**: thin, dark scrollbars that blend perfectly with a catppuccin or dark system theme.
 
-### 🛠 how to install
+### how to install
 1. install the base: [edge-frfox](https://github.com/bmFtZQ/edge-frfox)
 2. download `userChrome.css` and `userContent.css` from the latest release of this repo.
 3. find your profile folder:
