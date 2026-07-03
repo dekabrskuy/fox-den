@@ -18,10 +18,7 @@ minimalist firefox setup. no clutter, just web. based on edge-frfox.
 5. extract/place both `.css` files into the `chrome` folder.
 6. restart firefox and enjoy.
 
----
-*part of the dekabrskuy reliability & automation stack.*
-
-### 🖼 preview
+### preview
 ![newtab setup](photo_2026-03-28_18-54-13.jpg)
 *minimalist dashboard with dock-style icons and custom branding.*
 *tokyo night moon theme set and customized toolbar*
